@@ -1,0 +1,54 @@
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Exercises - 2-17-2017</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--JQuery import-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Scripts for application-->
+    <script src="scripts/scripts.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Javascript Exercises</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html" class="active">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="bg"></div>
+    <div class="jumbotron">
+        <div class="container title-container">
+            <h1>Javascript Exercises</h1>
+            <p class="lead">These exercises were completed February 17th, 2017</p>
+        </div>
+    </div>
+    <div class="container content-container">
+        <h1>Can you sleep in?</h1>
+        <form>
+            Is It a Weekday?: <input type="radio" name="weekday" value="Yes" id="weekdayyes"><input type="radio" name="weekday" value="No" id="weekdayno"><br>
+            Are You On Vacation?: <input type="radio" name="vacation" value="Yes" id="vacationyes"><input type="radio" name="vacation" value="No" id="vacationno"><br>
+        </form>
+        <button id="calculate" class="btn-primary" onclick ="checkSleepIn()">Can I sleep in?</button>
+        <h3 id="answer1"></h3>
+        <h1>Check if 2 emojis are smiling or not. If they are both smiling or both not smiling, you have trouble!</h1>
+        <form>
+            Is emoji 1 smiling?: <input type="radio" name="emoji1" value="Yes" id="emoji1yes"><input type="radio" name="emoji1" value="No" id="emoji1no"><br>
+            Is emoji 2 smiling?: <input type="radio" name="emoji2" value="Yes" id="emoji2yes"><input type="radio" name="emoji2" value="No" id="emoji2no"><br>
+        </form>
+        <button id="number" class="btn-primary" onclick="checkEmojiTrouble()">Guess The Random Number!</button>
+        <h3 id="answer2"></h3>
+        <h1>Using the following code fill in all the missing coding where the comments are ***** Fill in missing code here! *****:</h1>
+        <button id="christmas" class="btn-primary" onclick="fillInTheCode()">Click here to run the full code with missing elements added!</button>
+        <h3 id="demo"></h3>
+    </div>
+</body>
+</html>
