@@ -6,9 +6,9 @@
 function sleepIn(weekday, vacation) {
     console.log(weekday);
     console.log(vacation);
-    if (weekday == true) {
-        return false;
-    } else if (weekday == false && vacation == true) {
+    if (vacation == true) {
+        return true;
+    } else if (weekday == false) {
         return true;
     } else {
         return false;
